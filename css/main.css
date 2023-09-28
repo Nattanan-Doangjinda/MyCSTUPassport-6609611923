@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Lancelot&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&family=Kenia&family=Lancelot&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Kenia', cursive;
+    font-family: 'Lancelot', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header {
+    height: 700px;
+    background: url('../image/mypic\ 1.svg') no-repeat;
+    background-position-x: 320px ;
+    background-position-y: 200px ;
+    }
+
+nav{
+    height: 54px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF8A00;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 500px;
+   /* border: 1px solid red;*/
+    justify-content: space-between;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #8C7251;
+    font-family: 'JetBrains Mono', monospace;
+    margin-right: 25px;
+}
+.header-info {
+    margin-top: 250px;
+    width: 577px;
+    /*border: 1px solid red;*/
+    margin-left: 500px;
+}
+.header-title h1 {
+    font-size: 64px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.name {
+    font-family: 'Lancelot', cursive;
+    margin-right: 30px;
+}
+.sirname {
+    font-family: 'Kenia', cursive;
+}
+.header-contnet {
+    display: inline-block;
+}
+.myself {
+    width: 300px;
+    color: #111B47;
+    background: #fff;
+    border: 2px solid #111B47;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    margin-top: 15px;
+    font-family: 'Lancelot', cursive;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+.header-btn {
+    display: flex;
+    margin-top: 25px;
+    text-decoration: none;
+}
+.nun {
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.ig {
+    background: #FA9D31;
+    color: black;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.powerful {
+    background: #fff; 
+}
+.powerful-con{
+    display: flex;
+    justify-content: space-between; 
+}
+.powerful-info {
+    
+    width: 1100px;
+    /*border: 1px solid red;*/
+}
+.pw-title h2 {
+    margin-top: 250px;
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+.pw-p h2 {
+    margin-top: 15px;
+    color: #6F7CB2;
+    font-size: 30px;
+    line-height: 26px;
+}
+.pw-p ul {
+    margin-top: 20px;
+    color: #6F7CB2;
+    font-size: 20px;
+    line-height: 26px;
+}
+.pw-video {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img-bg {
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
