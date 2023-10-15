@@ -161,7 +161,14 @@
     font-size: 20px;
   }
   .VDO{
+    width: 100%;
+    height: auto;
     margin-top: 20px;
+  }
+  .myvdo {
+
+    width: 100%;
+    height: auto;
   }
   .me1{
     margin-top: 20px;
